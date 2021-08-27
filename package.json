@@ -46,6 +46,7 @@
     "prettier": "prettier .",
     "prettier:fix": "prettier . --write",
     "release": "lerna publish --no-verify-access --no-private --no-commit-hooks --yes",
+    "tt": "ls",
     "start": "nx run-many --target=start --all --parallel",
     "start:css": "nx run-many --target=start --projects=@vtmn/showcase-css,@vtmn/css --parallel",
     "start:icons": "nx run-many --target=start --projects=@vtmn/showcase-icons,@vtmn/icons --parallel",
